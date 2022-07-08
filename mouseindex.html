@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title></title>
+
+    <script src="./js/jquery-1.10.2.min.js"></script>
+<script src="./js/mouse.js"></script>
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+
+    <div id="a" style="width:700px;height:600px;border:1px solid green;">
+
+        <div id="id_document_img_root" style="position: relative; height: 100%;width: 100%;">
+
+            <div class="id_document_img-viewer-container"
+                style="width: 100%; height: 100%; overflow: hidden; position: absolute;">
+
+                <div class="id_document_img-viewer-canvas" style="position: absolute; ">
+
+                    <div id="id_document_img_container" style="position: absolute; transform: scale(1);">
+
+                        <img id='id_document_img_img'
+                            style="position: absolute;width: auto; height: auto; display: block;" />
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+</body>
+
+<script>
+    moushClass.ImageViewer("./imgs/1.jpeg", "a", function () {
+
+    });
+
+</script>
+
+</html>
